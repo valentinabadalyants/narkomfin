@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Дом Наркомфина</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <script src="javascripts/jquery-3.6.1.js" charset="utf-8"></script>
     <script>
     $(function() {
@@ -11,7 +13,7 @@
         $(this).on('click', function(e) {
           e.preventDefault();
           var scrollTo = $(this).attr('href');
-          var whitespace = scrollTo == '#s1' ? 70 : 30;
+          var whitespace = scrollTo == '#s1' ? 110 : 30;
           $('html,body').animate({
             scrollTop: $(scrollTo).offset().top - whitespace
           }, 1000);
@@ -25,14 +27,13 @@
   <body>
     <!-- шапка -->
     <div class="menubar">
-      <img src="images/logo.svg" alt="">
-      <a href="">Text 1</a>
-      <a href="">Text 2</a>
+      <a href="indexmain.html"><img src="images/logo.svg" alt=""></a>
+      <a href="about.html">Text 2</a>
     </div>
     <!-- боковое меню -->
     <nav class="sidebar">
-      <h2>Содержание</h2>
         <ul>
+          <li><a href="#s1">Дом Наркомфина</a></li>
           <li><a href="#1">История создания дома Наркомфина</a></li>
             <ul>
               <li><a href="#1_1">ОСА и Стройком</a></li>
@@ -70,7 +71,7 @@
     </nav>
     <!-- основной контент -->
     <article>
-      <h1>Дом Наркомфина</h1>
+      <h1 id="s1">Дом Наркомфина</h1>
         <p>
           <strong>Дом Наркомфина</strong> — один из знаковых памятников архитектуры советского <a href="https://clck.ru/JmoMD" target="_blank">авангарда</a> и <a href="https://clck.ru/Eb2ig" target="_blank">конструктивизма</a>. Построен в <a href="https://ru.wikipedia.org/wiki/1930_%D0%B3%D0%BE%D0%B4" target="_blank">1928—1930 годах</a> по проекту архитекторов <a href="https://clck.ru/QozaE" target="_blank">Моисея Гинзбурга</a>, <a href="https://clck.ru/Qozar" target="_blank">Игнатия Милиниса</a> и инженера <a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%85%D0%BE%D1%80%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D0%B8%D1%87" target="_blank">Сергея Прохорова</a> для работников <a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B0%D1%80%D0%B8%D0%B0%D1%82_%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2_%D0%A1%D0%A1%D0%A1%D0%A0" target="_blank">Народного комиссариата финансов СССР</a> (Наркомфина). Автор замысла дома Наркомфина М. Я. Гинзбург определял его как «опытный дом переходного типа». Дом находится в <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0" target="_blank">Москве</a> по адресу: <a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80" target="_blank">Новинский бульвар</a>, дом 25, корпус 1.
         </p>

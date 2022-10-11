@@ -2,13 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height: 56px;
   padding: 10px 20px;
   border-bottom: 1px solid #bbb;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  /* position: fixed;
+  width: 100%;
+  top: 0;
+  left:0;
+  margin: 0 auto;
+  background: white; */
+
 }
 .menubar img {
-  height: 20px;
+  height: 17px;
 }
 .menubar a {
   color: #777;

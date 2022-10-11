@@ -2,12 +2,12 @@ nav {
   width: 300px;
   display: block;
   position: fixed;
-  top: 20px;
+  top: 110px;
   left: 20px;
   overflow: hidden;
   opacity: .2;
   transition: all .8s ease-out;
-  margin-top: 40px;
+
 }
 nav:hover {
   opacity: 1;
